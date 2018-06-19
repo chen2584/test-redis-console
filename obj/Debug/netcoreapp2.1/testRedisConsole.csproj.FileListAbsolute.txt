@@ -1,0 +1,11 @@
+/Users/chen/MyWork/Dotnet/testRedisConsole/bin/Debug/netcoreapp2.1/testRedisConsole.deps.json
+/Users/chen/MyWork/Dotnet/testRedisConsole/bin/Debug/netcoreapp2.1/testRedisConsole.runtimeconfig.json
+/Users/chen/MyWork/Dotnet/testRedisConsole/bin/Debug/netcoreapp2.1/testRedisConsole.runtimeconfig.dev.json
+/Users/chen/MyWork/Dotnet/testRedisConsole/bin/Debug/netcoreapp2.1/testRedisConsole.dll
+/Users/chen/MyWork/Dotnet/testRedisConsole/bin/Debug/netcoreapp2.1/testRedisConsole.pdb
+/Users/chen/MyWork/Dotnet/testRedisConsole/obj/Debug/netcoreapp2.1/testRedisConsole.csprojAssemblyReference.cache
+/Users/chen/MyWork/Dotnet/testRedisConsole/obj/Debug/netcoreapp2.1/testRedisConsole.csproj.CoreCompileInputs.cache
+/Users/chen/MyWork/Dotnet/testRedisConsole/obj/Debug/netcoreapp2.1/testRedisConsole.AssemblyInfoInputs.cache
+/Users/chen/MyWork/Dotnet/testRedisConsole/obj/Debug/netcoreapp2.1/testRedisConsole.AssemblyInfo.cs
+/Users/chen/MyWork/Dotnet/testRedisConsole/obj/Debug/netcoreapp2.1/testRedisConsole.dll
+/Users/chen/MyWork/Dotnet/testRedisConsole/obj/Debug/netcoreapp2.1/testRedisConsole.pdb
