@@ -29,13 +29,18 @@ namespace testRedisConsole
                 //Console.WriteLine(allThePeople.Dump()); //return json format
 
                 Console.WriteLine("--- GetByUser ---");
-                redisClient.SetValue("ChenName", "Worameth Semapat");
+                redisClient.SetValue("ChenName", "Worameth Semapat", TimeSpan.FromSeconds(50));
                 Console.WriteLine("Get Result: " + redisClient.GetValue("ChenName"));
 
                 Console.WriteLine("--- Get Int ---");
                 redisClient.Set("testInt", 1);
                 var getInt = redisClient.Get<int>("testInt");
                 Console.WriteLine($"Type: {getInt.GetType().Name} - Value: {getInt}");
+
+                // Set Expire
+                redisClient.AddItemToList("ChenList", "Test1");
+                redisClient.AddItemToList("ChenList", "Test2");
+                redisClient.Expire("ChenList", 30);
             }
         }
     }
