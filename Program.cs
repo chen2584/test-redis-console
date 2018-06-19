@@ -24,13 +24,18 @@ namespace testRedisConsole
                 Console.WriteLine("--- Get All People ---");
                 foreach(var people in allThePeople)
                 {
-                    Console.WriteLine($"Id: {people.Id} - Name: {people.Name} ");
+                    Console.WriteLine($"Id: {people.Id}- Name: {people.Name} ");
                 }
                 //Console.WriteLine(allThePeople.Dump()); //return json format
 
                 Console.WriteLine("--- GetByUser ---");
                 redisClient.SetValue("ChenName", "Worameth Semapat");
                 Console.WriteLine("Get Result: " + redisClient.GetValue("ChenName"));
+
+                Console.WriteLine("--- Get Int ---");
+                redisClient.Set("testInt", 1);
+                var getInt = redisClient.Get<int>("testInt");
+                Console.WriteLine($"Type: {getInt.GetType().Name} - Value: {getInt}");
             }
         }
     }
